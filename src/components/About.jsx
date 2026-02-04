@@ -40,7 +40,7 @@ const About = () => {
                         <div className="space-y-4 translate-y-8">
                             <div className="bg-zinc-900 rounded-2xl p-4 border border-white/5 shadow-2xl">
                                 <img
-                                    src="/images/radsafe-graph.png"
+                                    src="images/radsafe-graph.png"
                                     alt="Mobile Development"
                                     className="rounded-xl w-full aspect-[4/5] object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
                                 />

@@ -27,7 +27,7 @@ const SelectedWork = () => {
                         </a>
                     </div>
                     <div className="flex-1 bg-zinc-100 relative overflow-hidden order-1 md:order-2 h-[280px] md:h-auto">
-                        <img src="/images/aether-laptops.png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Aether Laptops" />
+                        <img src="images/aether-laptops.png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Aether Laptops" />
                     </div>
                 </article>
 
@@ -48,7 +48,7 @@ const SelectedWork = () => {
                         </a>
                     </div>
                     <div className="flex-1 bg-zinc-800 relative overflow-hidden order-1 md:order-2 h-[280px] md:h-auto flex items-center justify-center group-hover:bg-zinc-700/50 transition-colors">
-                        <img src="/images/tesla-model-s.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Tesla Model S" />
+                        <img src="images/tesla-model-s.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Tesla Model S" />
                     </div>
                 </article>
 
@@ -72,12 +72,12 @@ const SelectedWork = () => {
                         <div className="absolute inset-0 flex flex-col gap-4 p-8">
                             {/* Image 1: Tablet View */}
                             <div className="relative flex-1 w-full rounded-xl overflow-hidden shadow-xl transform translate-x-4 rotate-2 transition-transform duration-700 group-hover:rotate-0 group-hover:translate-x-0 group-hover:scale-[1.02]">
-                                <img src="/images/radsafe-tablet.png" className="absolute inset-0 w-full h-full object-cover" alt="RadSafe Tablet" />
+                                <img src="images/radsafe-tablet.png" className="absolute inset-0 w-full h-full object-cover" alt="RadSafe Tablet" />
                             </div>
 
                             {/* Image 2: iPad graph view */}
                             <div className="relative flex-1 w-full rounded-xl overflow-hidden shadow-xl transform -translate-x-4 -rotate-1 transition-transform duration-700 group-hover:rotate-0 group-hover:translate-x-0 group-hover:scale-[1.02]">
-                                <img src="/images/radsafe-graph.png" className="absolute inset-0 w-full h-full object-cover" alt="RadSafe Graph" />
+                                <img src="images/radsafe-graph.png" className="absolute inset-0 w-full h-full object-cover" alt="RadSafe Graph" />
                             </div>
                         </div>
                     </div>
