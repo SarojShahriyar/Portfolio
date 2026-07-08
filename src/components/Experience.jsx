@@ -50,7 +50,7 @@ const Experience = () => {
                             <img
                                 src="images/profile-secondary.png"
                                 alt="Saroj S. Iqbal"
-                                className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-auto object-cover"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                             <div className="absolute bottom-4 left-4">
