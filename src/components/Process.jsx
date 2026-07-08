@@ -4,18 +4,18 @@ const Process = () => {
     const steps = [
         {
             number: "01",
-            title: "Strategy & Blueprint",
-            description: "We start by defining the ecosystem. Whether it's web, mobile, or a marketing funnel, we map out the user journey and technical requirements."
+            title: "Plan",
+            description: "Define what the application actually needs to do. I map user flows, choose the stack, and break the product into buildable milestones before writing code."
         },
         {
             number: "02",
-            title: "Design & Build",
-            description: "I execute the vision. This involves crafting high-fidelity UIs, writing clean React/Native code, and setting up the backend infrastructure."
+            title: "Build",
+            description: "Design and code move together. High-fidelity UI, clean React and React Native implementation, and the API layer underneath — reviewed and tested as it grows."
         },
         {
             number: "03",
-            title: "Launch & Scale",
-            description: "Deployment is just the beginning. I set up marketing campaigns, integrate analytics, and optimize the funnel for maximum conversion."
+            title: "Ship & iterate",
+            description: "Deploy to the web, publish to the stores, and keep improving. Analytics and real usage drive what gets built next."
         }
     ];
 
@@ -24,8 +24,8 @@ const Process = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-8">
                 <div className="mb-20">
                     <h2 className="text-3xl lg:text-5xl text-white font-semibold font-jakarta tracking-tight">
-                        From concept to <br />
-                        <span className="text-zinc-500">market dominance.</span>
+                        From idea to <br />
+                        <span className="text-zinc-500">shipped application.</span>
                     </h2>
                 </div>
 

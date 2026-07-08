@@ -12,26 +12,26 @@ const About = () => {
                     {/* Left Content */}
                     <div className="space-y-8">
                         <h2 className="text-3xl lg:text-5xl font-semibold text-white tracking-tight font-jakarta leading-tight">
-                            More than a designer. <br />
-                            <span className="text-zinc-500">A full-stack growth partner.</span>
+                            An application developer <br />
+                            <span className="text-zinc-500">who ships the whole product.</span>
                         </h2>
 
                         <div className="space-y-6 text-lg text-gray-400 font-geist leading-relaxed">
                             <p>
-                                In today's landscape, a pretty website isn't enough. You need a cohesive digital ecosystem that captures attention and retains it across every touchpoint.
+                                I study Nuclear Engineering at the University of Dhaka — a field where precision isn't optional. I bring that same rigor to software: most applications fail in the gaps between design and code, between web and mobile, between the interface and the data behind it. I build across those gaps.
                             </p>
                             <p>
-                                My background spans the entire product lifecycle. I can take your idea from a napkin sketch to a fully deployed web platform, expand it into a native mobile app for iOS and Android, and then drive traffic to it with high-level marketing automation.
+                                My work covers the full lifecycle: I design the interface, build it in React, extend it to Android and iOS, and wire up the APIs and services that make it real. That's how RadSafe went from physics coursework to an app talking to radiation sensors, and how Mudran grew from a side project into a platform that organizations pay to use.
                             </p>
                             <p>
-                                I bridge the gap between creative design, technical engineering, and business strategy so you don't have to hire three different agencies.
+                                What I hand over is never a mockup or a prototype — it's a finished application, deployed and running.
                             </p>
                         </div>
 
                         <div className="pt-4 flex flex-wrap gap-4">
-                            <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300 font-geist">Full-Stack Dev</div>
+                            <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300 font-geist">Web Applications</div>
                             <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300 font-geist">Mobile Engineering</div>
-                            <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300 font-geist">Growth Marketing</div>
+                            <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300 font-geist">API Integration</div>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const About = () => {
                             <div className="bg-zinc-900 rounded-2xl p-4 border border-white/5 shadow-2xl">
                                 <img
                                     src="images/radsafe-graph.png"
-                                    alt="Mobile Development"
+                                    alt="RadSafe mobile application on a tablet"
                                     className="rounded-xl w-full aspect-[4/5] object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
                                 />
                                 <p className="mt-3 text-sm font-medium text-white font-geist text-center">Mobile Apps</p>
@@ -50,11 +50,11 @@ const About = () => {
                         <div className="space-y-4">
                             <div className="bg-zinc-900 rounded-2xl p-4 border border-white/5 shadow-2xl">
                                 <img
-                                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
-                                    alt="Marketing Analytics"
+                                    src="images/mudran-landing.png"
+                                    alt="Mudran web platform"
                                     className="rounded-xl w-full aspect-[4/5] object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
                                 />
-                                <p className="mt-3 text-sm font-medium text-white font-geist text-center">Growth Marketing</p>
+                                <p className="mt-3 text-sm font-medium text-white font-geist text-center">Web Applications</p>
                             </div>
                         </div>
                     </div>

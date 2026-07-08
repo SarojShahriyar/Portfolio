@@ -2,20 +2,20 @@ import React from 'react';
 
 const SkillsMarquee = () => {
     const skills = [
-        "Responsive Web Design",
-        "Conversion-Focused Layouts",
-        "Design Systems & Style Guides",
-        "Interactive Prototypes",
-        "Mobile-First UI",
-        "High CCR Landing Pages",
-        "UX Wireframes",
-        "Information Architecture"
+        "React & React Native",
+        "JavaScript / TypeScript",
+        "Node.js & REST APIs",
+        "Responsive Web Apps",
+        "Android & iOS Delivery",
+        "UI Engineering",
+        "Design Systems",
+        "Performance Optimization"
     ];
 
     return (
         <section className="border-y border-white/10 py-12 overflow-hidden opacity-0 animate-fade-in" style={{ animationDelay: '1.3s' }}>
             <div className="w-full">
-                <p className="text-base font-medium text-gray-500 text-center pb-10 font-geist">Crafting performance, conversion-focused experiences</p>
+                <p className="text-base font-medium text-gray-500 text-center pb-10 font-geist">The toolkit I build applications with</p>
 
                 {/* Infinite Marquee Container */}
                 <div className="relative overflow-hidden w-full">
